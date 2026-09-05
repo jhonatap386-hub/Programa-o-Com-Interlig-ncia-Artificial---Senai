@@ -1,0 +1,14 @@
+## Atividade 2 ##
+import streamlit as st
+
+
+st.title ("Formulário de Cadastro de Usuário ")
+
+nome = st.text_input ("Digite o Seu nome: ")
+idade = st.number_input ("Digite a sua idade: ", min_value = 0)
+
+if st.checkbox("Deseja Aceitar os termos de uso"):
+    if st.button("Entregar Dados"):
+        st.text(f"Seu nome é {nome}, e sua idade é: {idade}")
+else:
+    print ("Não Aceitou os termos de Uso")
