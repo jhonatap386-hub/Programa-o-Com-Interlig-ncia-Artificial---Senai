@@ -1,0 +1,9 @@
+## Atividade 1 ##
+import streamlit as st
+
+st.title("Olá meu Nome é Jhonata")
+
+st.header("Atualmente estou Desenvolvendo Códigos em Python")
+
+st.text ("Aprendi 2 Bilbiotecas na Aula de Hoje a primeira sendo streamlist e a segunda Pandas")
+st.markdown("Essas bilbiotecas são boas com Python ")
