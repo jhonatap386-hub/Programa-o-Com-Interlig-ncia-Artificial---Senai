@@ -1,4 +1,4 @@
-# Programação Com Inteligência Artificial Senai
+# Programação em I.A Generativa Senai
 
 Esse é um curso que estou estudando atualmente dia 09/05/2026 
 
