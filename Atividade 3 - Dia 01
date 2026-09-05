@@ -1,0 +1,17 @@
+import streamlit as st
+
+
+st.text("O Seletor de Cursos")
+st.header("Por favor Selecione uma das Opções abaixo: ")
+opcao = st.checkbox("Python", "Java", "HTML", "C", "Javascript")
+
+if st.mermaid_chart: 
+    if True: 
+    ('''
+    graph LR
+        A[Start] --> B{Decision}
+        B -->|Yes| C[OK]
+        B -->|No| D[Cancel]
+    ''')
+else:
+    print ("Valor Incorreto")
